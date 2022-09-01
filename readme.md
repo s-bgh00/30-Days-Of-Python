@@ -440,6 +440,28 @@ To run the python file check the image below. You can run the python file either
    - Your name
    - Your family name
    - Your country
+# Introduction
+# Day 1 - 30DaysOfPython Challenge
+
+print(3 + 4)   # addition(+)
+print(3 - 4)   # subtraction(-)
+print(3 * 4)   # multiplication(*)
+print(3 / 4)   # division(/)
+print(3 ** 4)  # exponential(**)
+print(3 % 4)   # modulus(%)
+print(3 // 4)  # Floor division operator(//)
+
+# Checking data types
+
+print(type(10))                  # Int
+print(type(9.8))                 #Float
+print(type(3.14))                # Float
+print(type(4 - 4j))              # Complex
+print(type['Asabeneh', 'Python', 'Finland'])          # List
+print(type("Sara"))               # String
+print(type("Bgh"))               #String
+print(type("Iran"))              #String
+      
 
 ### Exercise: Level 2
 
@@ -449,6 +471,20 @@ To run the python file check the image below. You can run the python file either
 
 1. Write an example for different Python data types such as Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.
 2. Find an [Euclidian distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) between (2, 3) and (10, 8)
+# Level 3
+print(type(13))  #Int
+print(type(13.13)) #Float
+print(type(13 + 13j)) #Complex
+print(type("Sara")) #String
+print(type(True))   #Bool
+print(type([1, 2, 3])) #List
+print(type({'first_name' : 'Sara', 'last_name' : 'Bgh', 'age' : 22})) #Dict
+print(type(("sara", "bgh"))) #tuple
+print(type({1, 2, 3})) #set
+      
+import math as mt
+euc_dis = mt.sqrt(((8 - 3) ** 2) + ((10 - 2) ** 2))
+print(euc_dis)
 
 🎉 CONGRATULATIONS ! 🎉
 
