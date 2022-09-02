@@ -35,3 +35,5 @@ import math as mt
 euc_dis = mt.sqrt(((8 - 3) ** 2) + ((10 - 2) ** 2))
 print(euc_dis)
       
+print(euc_dis)
+      
