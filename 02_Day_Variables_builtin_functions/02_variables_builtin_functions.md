@@ -295,6 +295,54 @@ Number data types in Python:
 1. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
 1. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
 
+# Day 2: 30 Days of python programming
+from operator import truediv
+# Level 1
+first_name = "Sara"
+last_name = "Bgh"
+full_name = "Sara Bgh"
+country_name = "Iran"
+city_name = "Isf"
+age = 250 # LOL
+year = 2022
+is_married = False
+is_true = True
+is_light_on = False
+fav_color , fav_food , fav_number , fav_tv_series = "blue" , "pizza" , 13 , "The Big Bang Theory" 
+
+# Level 2
+print(type(first_name))
+# prin(type(all else :D))
+print(len(first_name))
+if len(first_name) > len(last_name):
+    print("Youre first name has more letters.")
+else:
+    print("Your first name has fewer letters.")
+
+num_one = 5
+num_two = 4
+total = num_one + num_two
+diff = num_one - num_two
+product = num_one * num_two
+division = num_one / num_two
+remainder = num_one % num_two
+exp = num_one ** num_two
+floor_division = num_one // num_two
+
+r = 30
+area_of_circle = (r**2) * 3.14
+circum_of_circle = 2 * 3.14 * r
+radius = input("Please enter the radius of your intended circle: ")
+area = (int(radius) ** 2) * 3.14
+print(area)
+
+first_name = input("Please enter your first name: ")
+last_name = input("Please enter your last name: ")
+age = input("Please enter your age: ")
+country_name = input("Please enter your county name: ")
+
+help('keywords')
+
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md)
