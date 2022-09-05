@@ -314,4 +314,94 @@ You have lived for 3153600000 seconds.
 
 🎉 CONGRATULATIONS ! 🎉
 
+print("integer number is: ", 22)
+print("float number is: ", 183)
+print("complex number is: ", 1j + 3)
+
+base = input("please enter base: ")
+height = input("please enter height: ")
+area = int(base) * int(height) * 0.5
+print(area)
+
+side_a = input("please enter side a: ")
+side_b = input("please enter side b: ")
+side_c = input("please enter side c: ")
+perimeter = (int(side_a) + int(side_b) + int(side_c))
+print(perimeter)
+
+length = int(input("please enter length: "))
+width = int(input("please enter width: "))
+area_2 = length * width
+perimeter_2 = (length + width) * 2
+print(area_2)
+print(perimeter_2)
+
+r = int(input("please enter radius: "))
+area_3 = (r ** r) * 3.14
+circumference = (3.14 * 2 * r)
+# Task 8
+slope_8 = 2
+x_intercept_8 = 1
+y_intercept_8 = -2
+
+# Task 9
+def Slope_Finder(x1, x2, y1, y2):
+    m = y2-y1/x2-x1
+    return m 
+
+slope_9= Slope_Finder(2, 6, 2, 10)
+
+# Task 10
+print(slope_9 >= slope_8)
+
+# Task 12
+print(len("python") != len("dragon"))
+
+# Task 13
+print(("on" in "python") and ("on" in "dragon"))
+
+# Task 14
+print("jargon" in "I hope this course is not full of jargon")
+
+# Task 15
+print("on" not in "dragon" and "python")
+
+# Task 16
+print(float(len("python")))
+print(str(len("python")))
+
+# Task 17
+number = int(input())
+if (number % 2 is 0):
+    X = "even"
+else:
+    X = "odd"
+print("The entered number is " , X)
+
+# Task 18
+print(7//3 is int(2.7))
+
+# Task 19
+F = type("10")
+print(F == type(10))
+
+# Task 20
+S = int(9.8)
+print(S == 10)
+
+# Task 21
+hours = int(input("please enter hours: "))
+rate_per_hour = int(input("please enter rate per our: "))
+print("your earning is: ", hours * rate_per_hour)
+
+# Task 22
+year = int(input("enetr your age in years:"))
+D = year * 365 * 24 * 3600
+print("you have lived", D, "seconds.")
+
+# Task 23
+for i in range (1, 6):
+        print(i, i ** 1, i **2, i ** 3)
+
+
 [<< Day 2](../02_Day_Variables_builtin_functions/02_variables_builtin_functions.md) | [Day 4 >>](../04_Day_Strings/04_strings.md)
