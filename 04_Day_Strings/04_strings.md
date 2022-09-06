@@ -599,6 +599,87 @@ The area of a circle with radius 10 is 314 meters square.
 
 🎉 CONGRATULATIONS ! 🎉
 
+# Task 1
+words = ["Thirty", "Days", "Of", "Python"]
+Sentence = " ".join(words)
+print(Sentence)
+
+# Task 2
+words_2 = ["Coding", "For", "All"]
+Sentence_2 = " ".join(words_2)
+print(Sentence_2)
+
+# Task 3 - 17
+company = "Coding For All"
+print(company)
+print(len(company))
+print(company.upper())
+print(company.lower())
+print(company.swapcase())
+print(company.title())
+print(company.capitalize())
+print(company[0:6])
+print("Coding" in company)
+print(company.replace("Coding", "Python"))
+print(company.replace("All", "Everyone"))
+print(company.split(' '))
+companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(companies.split(", "))
+print(company[0])
+print(company[-1])
+print(company[10])
+
+# Task 18
+sen_1 = "Python For Everyone"
+sen_2 = "Coding For All"
+sen_1_ac = sen_1[::3]
+sen_2_ac = sen_2[::3]
+
+# Task 19 - 27
+print(sen_2.find("C"))
+print(sen_2.find("F"))
+sen_4 = sen_2 + " People"
+print(sen_4.rfind("l"))
+sen_3 = 'You cannot end a sentence with because because because is a conjunction'
+print(sen_3.find("because"))
+print(sen_3.rfind("because"))
+print(sen_3.rfind("is"))
+print(sen_3[31:55])
+
+# Task 28 - 30
+print(sen_2.endswith("Coding"))
+print(sen_2.startswith("Coding"))
+sen_5 = '   Coding For All      '
+print(sen_5.strip("     "))
+
+# Task 31
+print("30DaysOfPython".isidentifier())
+print("thirty_days_of_python"
+.isidentifier())
+
+# Task 32
+python_libs = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+libs = " #".join(python_libs)
+print(libs)
+
+# Task 33- 34
+print("I am enjoying this challenge.\nI just wonder what is next.")
+print("Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki")
+
+# Task 35
+radius = 10
+area = radius ** 2 * 3.14
+print("The area of a circle with radius {} is {:.2f} meters square.".format(radius, area))
+
+# Task 36
+a = 8
+b = 6
+print("{} + {} = {}".format(a, b, a + b))
+print("{} - {} = {}".format(a, b , a-b))
+print("{} * {} = {}". format(a, b, a*b))
+print("{} / {} = {:.2f}".format(a, b, a/b))
+print("{} % {} = {}". format(a, b, a%b))
+print("{} ** {} = {}".format(a, b, a**b))
 [<< Day 3](../03_Day_Operators/03_operators.md) | [Day 5 >>](../05_Day_Lists/05_lists.md)
 
 
